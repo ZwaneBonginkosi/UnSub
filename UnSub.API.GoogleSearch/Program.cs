@@ -7,7 +7,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace UnSub.API.google_search
+namespace UnSub.API.GoogleSearch
 {
     public class Program
     {

@@ -4,7 +4,7 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:64735",
+      "applicationUrl": "http://localhost:52183",
       "sslPort": 0
     }
   },
@@ -17,7 +17,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "UnSub.API.google_search": {
+    "UnSub.API.GoogleSearch": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "weatherforecast",

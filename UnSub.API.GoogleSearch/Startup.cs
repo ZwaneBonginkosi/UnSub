@@ -10,7 +10,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace UnSub.API.google_search
+namespace UnSub.API.GoogleSearch
 {
     public class Startup
     {

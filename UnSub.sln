@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnSub.API.Gateway", "UnSub.API.Gateway\UnSub.API.Gateway.csproj", "{BFBAE4E8-1E63-492D-A1BF-2F0350EF9B83}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnSub.API.Gateway", "UnSub.API.Gateway\UnSub.API.Gateway.csproj", "{BFBAE4E8-1E63-492D-A1BF-2F0350EF9B83}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnSub.API.google_search", "UnSub.API.google_search\UnSub.API.google_search.csproj", "{CAE3E9F9-6FC3-4475-BC14-F8EC7E817B4D}"
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "UnSub.API.RunTrace", "UnSub.API.RunTrace\UnSub.API.RunTrace.pyproj", "{D9588D20-6147-4E26-9313-8DFDA9A22326}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "UnSub.API.WebHarvesting", "UnSub.API.WebHarvesting\UnSub.API.WebHarvesting.pyproj", "{EFD32738-71D8-4AB5-A5D5-C3D7B7E7A9FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnSub.API.GoogleSearch", "UnSub.API.GoogleSearch\UnSub.API.GoogleSearch.csproj", "{51EBDF42-8CBA-4496-BA12-CBE8EB394647}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +21,18 @@ Global
 		{BFBAE4E8-1E63-492D-A1BF-2F0350EF9B83}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BFBAE4E8-1E63-492D-A1BF-2F0350EF9B83}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BFBAE4E8-1E63-492D-A1BF-2F0350EF9B83}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CAE3E9F9-6FC3-4475-BC14-F8EC7E817B4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CAE3E9F9-6FC3-4475-BC14-F8EC7E817B4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CAE3E9F9-6FC3-4475-BC14-F8EC7E817B4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CAE3E9F9-6FC3-4475-BC14-F8EC7E817B4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9588D20-6147-4E26-9313-8DFDA9A22326}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9588D20-6147-4E26-9313-8DFDA9A22326}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9588D20-6147-4E26-9313-8DFDA9A22326}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9588D20-6147-4E26-9313-8DFDA9A22326}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFD32738-71D8-4AB5-A5D5-C3D7B7E7A9FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFD32738-71D8-4AB5-A5D5-C3D7B7E7A9FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFD32738-71D8-4AB5-A5D5-C3D7B7E7A9FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFD32738-71D8-4AB5-A5D5-C3D7B7E7A9FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51EBDF42-8CBA-4496-BA12-CBE8EB394647}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51EBDF42-8CBA-4496-BA12-CBE8EB394647}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51EBDF42-8CBA-4496-BA12-CBE8EB394647}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51EBDF42-8CBA-4496-BA12-CBE8EB394647}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

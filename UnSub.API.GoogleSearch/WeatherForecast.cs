@@ -1,6 +1,6 @@
 using System;
 
-namespace UnSub.API.google_search
+namespace UnSub.API.GoogleSearch
 {
     public class WeatherForecast
     {

@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
-namespace UnSub.API.google_search.Controllers
+namespace UnSub.API.GoogleSearch.Controllers
 {
     [ApiController]
     [Route("[controller]")]
